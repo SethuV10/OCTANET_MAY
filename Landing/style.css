@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande','Lucida Sans',Arial,Sans-serif;
+    box-sizing: border-box;
+}
+
+html,body{
+    width:100%;
+    height:100%;
+}
+
+#main{
+    width:100%;
+    min-height:100vh;
+}
+
+.top{
+    width:100%;
+    min-height:60vh;
+    background-image: url(://www.istockphoto.com/en/photo/red-christmas-background-with-fir-branches-and-decorations-gm1348081963-425396341);
+    background-size: cover;
+    background-position: center;
+}
+
+.top .overlay{
+    position:relative;
+    width:100%;
+    min-height: inherit;
+    background-color: rgba(0, 0, 0, 0.295);
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:absolute;
+    width:100%;
+    padding:0 10vh;
+    color: white;
+    bottom:5%;
+}
+
+.text h1{
+    font-weight:600;
+    font-size:4vw;
+}
+
+.text .image{
+    background-image:url(https://www.istockphoto.com/photo/vintage-old-quill-pen-with-inkwell-on-wooden-table-retro-style-filtered-photo-gm1049054372-280581060?utm_source=pixabay&utm_medium=affiliate&utm_campaign=SRP_image_sponsored&utm_content=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fbackground%2F&utm_term=background);
+    background-size: cover;
+    background-position: center;
+    height:300px;
+    width:220px;
+}
+
+.rtext{
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+.rtext p{
+    font-size: 20px;
+}
+
