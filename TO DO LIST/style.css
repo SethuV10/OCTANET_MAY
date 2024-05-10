@@ -41,4 +41,15 @@ a{
 }
 ul{
     list-style: none;
+    gap: 14px;
+    list-style: none;
+}
+li{
+    font-size:20px;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
 }
