@@ -23,6 +23,7 @@ header .container{
 }
 .logo{
     display: flex;
+    gap:25px;
     align-items:center;
 }
 .log img{
@@ -52,4 +53,32 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 14px;
+}
+.main{
+    width:100%;
+    height:90vh;
+    position:absolute;
+}
+.main img{
+    display: block;
+    margin: auto;
+    height: 100%;
+    filter: drop-shadow (20px 20px 40px rgb(0, 0, 0))
+}
+.content{
+    width:100%;
+    height:100%;
+    display: block;
+    margin: auto;
+    position:  absolute;
+    top: 0;
+    left: 0;
+}
+.content .container{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: auto;
+    height: 100%;
 }
